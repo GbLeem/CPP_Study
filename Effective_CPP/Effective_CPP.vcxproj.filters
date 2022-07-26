@@ -13,46 +13,70 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Effective_CPP">
+      <UniqueIdentifier>{533b0f9c-a1b1-4fa9-9a67-4c7d7dc126dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="item3-2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="item3-1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item3-2.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item5.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item6.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item7.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item15.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item18.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item20-1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item20-2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item25.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item27-1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item27-2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
     <ClCompile Include="item28.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item29.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item31-1.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item31-2.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item33-1.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item33-2.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item33-3.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item33-4.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

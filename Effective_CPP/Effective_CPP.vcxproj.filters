@@ -78,5 +78,17 @@
     <ClCompile Include="item33-4.cpp">
       <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
+    <ClCompile Include="item35.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item36.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item37-1.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item37-2.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

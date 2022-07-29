@@ -90,5 +90,11 @@
     <ClCompile Include="item37-2.cpp">
       <Filter>소스 파일\Effective_CPP</Filter>
     </ClCompile>
+    <ClCompile Include="item38.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="item39.cpp">
+      <Filter>소스 파일\Effective_CPP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

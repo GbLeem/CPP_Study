@@ -1,39 +1,66 @@
+#include<iostream>
 //1.
-int main()
-{
-	int val1 = 10;
-	int val2 = 20;
-	int val3 = 30;
-	const int num = 10; //값이 변할 수 없는 상수 num
-	const int* ptr1 = &val1; //val1의 값 변경 불가
-	int* const ptr2 = &val2; //ptr2가 가리키는 값 변경 불가
-	const int* const ptr3 = &val3;//ptr3가 가리키는 값 변경 불가, val3값 변경 x
+//int plusInt(int& num)
+//{
+//	return num += 1;
+//}
+//
+//int reverseInt(int& num)
+//{
+//	return -num;
+//}
+//
+//int main()
+//{
+//	int num = 10;
+//	std::cout << plusInt(num) << std::endl;
+//	std::cout << reverseInt(num) << std::endl;
+//}
 
-	ptr1 = ptr2;
-	//ptr2 = ptr1; 오류
-	//*ptr1 = 20; 오류
-	*ptr2 = 10;
-}
 
 //2.
-//메모리 영역
-//데이터 : 전역변수
-//힙 : 동적으로 할당
-//스택 : 지역변수 매개변수
+//referenct 연산자는 변수에만 적용되기 때문
+
 
 //3.
-void swap(int a, int b)//call by value
+//void SwapPointer(const int* (&ptr1), const int* (&ptr2))
+//{
+//	const int* temp = ptr1;
+//	ptr1 = ptr2;
+//	ptr2 = temp;
+//}
+//
+//int main()
+//{
+//	int num1 = 5;
+//	const int* ptr1 = &num1;
+//	int num2 = 10;
+//	const int* ptr2 = &num2;
+//
+//	std::cout << ptr1 << ' ' << ptr2 << std::endl;
+//	SwapPointer(ptr1, ptr2);
+//	std::cout << ptr1 << ' ' << ptr2 << std::endl;
+//}
+
+
+//----------------------------------
+//Reference 반환타입 함수
+//지역변수를 참조형으로 반환하면 안된다..
+
+int& RefReturn(int& ref)
 {
-	int temp;
-	temp = b;
-	b = a;
-	a = temp;
+	ref++;
+	return ref;
 }
 
-void swap(int* a, int* b) //call by reference
+int main()
 {
-	int temp;
-	temp = *b;
-	*b = *a;
-	*a = temp;
+	int num1 = 1;
+	//int& num2 = RefReturn(num1); -> int num1 = 1, int& ref = num1, int& num2 = ref
+	int num2 = RefReturn(num1);
+
+	num1++;
+	num2 += 100;
+	std::cout << "num1: " << num1 << std::endl;
+	std::cout << "num2: " << num2 << std::endl;
 }

@@ -219,6 +219,21 @@
     <ClCompile Include="..\Effective_Modern_CPP\item17.cpp">
       <Filter>소스 파일\Effective_Modern_CPP</Filter>
     </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item18.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item19.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item20.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item21.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item22.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Yoon\ch1\1-5\1-5.h">

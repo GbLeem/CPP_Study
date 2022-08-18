@@ -40,6 +40,12 @@
     <Filter Include="소스 파일\Yoon\ch5">
       <UniqueIdentifier>{becc2178-af8a-441d-94ae-c661ba9c68cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Yoon\ch6">
+      <UniqueIdentifier>{199717cb-4a54-4566-a6d7-69fe860a17af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Yoon\ch7">
+      <UniqueIdentifier>{8bd2e1b8-add5-4aed-9de8-7643f7c717f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item3-1.cpp">
@@ -299,6 +305,33 @@
     </ClCompile>
     <ClCompile Include="..\Yoon\ch5\5-3-3.cpp">
       <Filter>소스 파일\Yoon\ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch6\6-1.cpp">
+      <Filter>소스 파일\Yoon\ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch6\6-2.cpp">
+      <Filter>소스 파일\Yoon\ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch6\6-3.cpp">
+      <Filter>소스 파일\Yoon\ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch6\6-4.cpp">
+      <Filter>소스 파일\Yoon\ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch7\7-1.cpp">
+      <Filter>소스 파일\Yoon\ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch7\7-2.cpp">
+      <Filter>소스 파일\Yoon\ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch7\7-3.cpp">
+      <Filter>소스 파일\Yoon\ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch7\7-4.cpp">
+      <Filter>소스 파일\Yoon\ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch7\7-5.cpp">
+      <Filter>소스 파일\Yoon\ch7</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

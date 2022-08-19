@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\Yoon\ch7">
       <UniqueIdentifier>{8bd2e1b8-add5-4aed-9de8-7643f7c717f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Effective_Modern_CPP\study">
+      <UniqueIdentifier>{092d2c8f-4a15-4c8a-b1fb-a27e413c32b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item3-1.cpp">
@@ -335,6 +338,21 @@
     </ClCompile>
     <ClCompile Include="..\Yoon\ch7\7-2-1.cpp">
       <Filter>소스 파일\Yoon\ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item31.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item32.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item33.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item34.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\study\lamda_expression.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP\study</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

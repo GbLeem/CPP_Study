@@ -381,6 +381,30 @@
     <ClCompile Include="..\Yoon\ch8\8-2-4.cpp">
       <Filter>소스 파일\Yoon\ch8</Filter>
     </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item35.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item36.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item37.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item38.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item39.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item40.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\study\async-1.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP\study</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\study\async-2.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP\study</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Yoon\ch1\1-5\1-5.h">

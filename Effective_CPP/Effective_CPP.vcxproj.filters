@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\Yoon\ch8">
       <UniqueIdentifier>{87794c1d-4596-49a4-acf8-383a13bdcecc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Yoon\ch9">
+      <UniqueIdentifier>{89aa590b-3cde-4767-83db-01e2ed28ea95}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item3-1.cpp">
@@ -404,6 +407,18 @@
     </ClCompile>
     <ClCompile Include="..\Effective_Modern_CPP\study\async-2.cpp">
       <Filter>소스 파일\Effective_Modern_CPP\study</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch9\9-1.cpp">
+      <Filter>소스 파일\Yoon\ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch9\9-3.cpp">
+      <Filter>소스 파일\Yoon\ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch9\9-2-1.cpp">
+      <Filter>소스 파일\Yoon\ch9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch9\9-2-2.cpp">
+      <Filter>소스 파일\Yoon\ch9</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

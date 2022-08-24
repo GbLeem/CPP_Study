@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\Yoon\ch11">
       <UniqueIdentifier>{1ac45e44-68ec-4910-a2d3-91fa7dc55d48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Effective_Modern_CPP\study\NoCode">
+      <UniqueIdentifier>{845114c3-937f-4f95-864e-2088656306f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item3-1.cpp">
@@ -450,9 +453,6 @@
     <ClCompile Include="..\Yoon\ch10\10-4-2.cpp">
       <Filter>소스 파일\Yoon\ch10</Filter>
     </ClCompile>
-    <ClCompile Include="..\Yoon\ch11\11-1.cpp">
-      <Filter>소스 파일\Yoon\ch11</Filter>
-    </ClCompile>
     <ClCompile Include="..\Yoon\ch11\11-2.cpp">
       <Filter>소스 파일\Yoon\ch11</Filter>
     </ClCompile>
@@ -460,6 +460,30 @@
       <Filter>소스 파일\Yoon\ch11</Filter>
     </ClCompile>
     <ClCompile Include="..\Yoon\ch11\11-4.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\study\NoCode\1.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP\study\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\study\NoCode\2.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP\study\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\study\NoCode\3.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP\study\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\study\NoCode\4.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP\study\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item41.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effective_Modern_CPP\item42.cpp">
+      <Filter>소스 파일\Effective_Modern_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-1-1.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-1-2.cpp">
       <Filter>소스 파일\Yoon\ch11</Filter>
     </ClCompile>
   </ItemGroup>

@@ -453,9 +453,6 @@
     <ClCompile Include="..\Yoon\ch10\10-4-2.cpp">
       <Filter>소스 파일\Yoon\ch10</Filter>
     </ClCompile>
-    <ClCompile Include="..\Yoon\ch11\11-2.cpp">
-      <Filter>소스 파일\Yoon\ch11</Filter>
-    </ClCompile>
     <ClCompile Include="..\Yoon\ch11\11-3.cpp">
       <Filter>소스 파일\Yoon\ch11</Filter>
     </ClCompile>
@@ -501,10 +498,46 @@
     <ClCompile Include="..\NoCode\9.cpp">
       <Filter>소스 파일\NoCode</Filter>
     </ClCompile>
-    <ClCompile Include="10.cpp">
+    <ClCompile Include="..\Yoon\ch11\11-1-3.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\10.cpp">
       <Filter>소스 파일\NoCode</Filter>
     </ClCompile>
-    <ClCompile Include="..\Yoon\ch11\11-1-3.cpp">
+    <ClCompile Include="..\NoCode\11-1.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\11-2.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\12.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\13-1.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\13-2.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\14.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\15.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\16-1.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\16-2.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\17.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-2-1.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-2-2.cpp">
       <Filter>소스 파일\Yoon\ch11</Filter>
     </ClCompile>
   </ItemGroup>
@@ -526,6 +559,12 @@
     </ClInclude>
     <ClInclude Include="..\Yoon\ch9\oop\HighCreditAccount.h">
       <Filter>소스 파일\Yoon\ch9\oop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NoCode\11-2.h">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NoCode\16-2.h">
+      <Filter>소스 파일\NoCode</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

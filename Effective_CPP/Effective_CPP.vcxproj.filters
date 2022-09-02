@@ -453,9 +453,6 @@
     <ClCompile Include="..\Yoon\ch10\10-4-2.cpp">
       <Filter>소스 파일\Yoon\ch10</Filter>
     </ClCompile>
-    <ClCompile Include="..\Yoon\ch11\11-3.cpp">
-      <Filter>소스 파일\Yoon\ch11</Filter>
-    </ClCompile>
     <ClCompile Include="..\Yoon\ch11\11-4.cpp">
       <Filter>소스 파일\Yoon\ch11</Filter>
     </ClCompile>
@@ -539,6 +536,42 @@
     </ClCompile>
     <ClCompile Include="..\Yoon\ch11\11-2-2.cpp">
       <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-2-3.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-3-1.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-3-2.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-3-3.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch11\11-3-4.cpp">
+      <Filter>소스 파일\Yoon\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\18.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\19.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\20-1.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\20-2.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\21.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\22.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\23.cpp">
+      <Filter>소스 파일\NoCode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

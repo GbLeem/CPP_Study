@@ -22,7 +22,7 @@ ostream& operator<<(ostream& os, const Point& pos)
 	return os;
 }
 
-ostream& operator<<(ostream& os, const Point* pos)
+ostream& operator<<(ostream& os, const Point* pos) //¹®Á¦ 1.
 {
 	os << '[' << pos->xpos << ", " << pos->ypos << ']' << endl;
 	return os;

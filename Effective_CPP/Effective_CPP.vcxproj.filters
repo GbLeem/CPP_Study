@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\Yoon\ch12">
       <UniqueIdentifier>{ac987b91-8cd7-4a24-aa3f-8b0abe434c44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Yoon\ch13">
+      <UniqueIdentifier>{e5626df5-f75d-49f8-8179-62e5c2451cf6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item3-1.cpp">
@@ -599,6 +602,18 @@
     </ClCompile>
     <ClCompile Include="..\NoCode\29.cpp">
       <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch12\12-3.cpp">
+      <Filter>소스 파일\Yoon\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch13\13-1-1.cpp">
+      <Filter>소스 파일\Yoon\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch13\13-1-2.cpp">
+      <Filter>소스 파일\Yoon\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch13\13-2-1.cpp">
+      <Filter>소스 파일\Yoon\ch13</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

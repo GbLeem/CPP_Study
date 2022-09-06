@@ -73,6 +73,12 @@
     <Filter Include="소스 파일\Yoon\ch13">
       <UniqueIdentifier>{e5626df5-f75d-49f8-8179-62e5c2451cf6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Yoon\ch14">
+      <UniqueIdentifier>{e2bc2abf-4b73-4f0f-8e98-89e22a0030a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Yoon\ch14\14-1">
+      <UniqueIdentifier>{9a69decd-7e83-4a86-baaf-5227167969d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item3-1.cpp">
@@ -657,6 +663,18 @@
     <ClCompile Include="..\NoCode\42.cpp">
       <Filter>소스 파일\NoCode</Filter>
     </ClCompile>
+    <ClCompile Include="..\Yoon\ch14\14-2.cpp">
+      <Filter>소스 파일\Yoon\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch14\14-3.cpp">
+      <Filter>소스 파일\Yoon\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch14\14-4.cpp">
+      <Filter>소스 파일\Yoon\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Yoon\ch14\14-1\BoundArrayMain.cpp">
+      <Filter>소스 파일\Yoon\ch14\14-1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Yoon\ch1\1-5\1-5.h">
@@ -682,6 +700,12 @@
     </ClInclude>
     <ClInclude Include="..\NoCode\16-2.h">
       <Filter>소스 파일\NoCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Yoon\ch14\14-1\PointTemplate.h">
+      <Filter>소스 파일\Yoon\ch14\14-1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Yoon\ch14\14-1\ArrayTemplate.h">
+      <Filter>소스 파일\Yoon\ch14\14-1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

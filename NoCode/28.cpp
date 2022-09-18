@@ -10,14 +10,13 @@
 
 #include<iostream>
 #include<string>
-#include<vector>
-#include<stdlib.h>
+
 class Cat
 {
 public:
 	Cat(std::string name, int age)
-		:mName(std::move(name))
-		, mAge(age)
+		:mName{ std::move(name) }
+		, mAge{age}
 	{
 	}
 	const std::string& name() const

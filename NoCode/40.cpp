@@ -33,7 +33,7 @@ void foo(Cat*ptr)
 int main()
 {
 	//Cat* catRPtr = new Cat();
-	//Cat* catRPtr2 = catRPtr;
+	//Cat* catRPtr1 = catRPtr;
 	//foo(catRPtr);
 	//delete catRPtr;
 	// 위의 코드까지.. 새로운 Cat 오브젝트에 대해 4개의 포인터가 가리키고 있다.

@@ -27,7 +27,7 @@ public:
 		std::cout << mName << " copy constructor" << std::endl;
 	}
 
-	Cat(Cat&& other)
+	Cat(Cat&& other) noexcept //move constructor
 		:mName{ std::move(other.mName) }
 		, mAge{ other.mAge }
 	{

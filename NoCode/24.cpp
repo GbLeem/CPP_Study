@@ -55,7 +55,7 @@ int main()
 	Cat::count = 0; // 위처럼 만들 경우 아무대서나 접근 가능..(해결 : 위 경우 speak함수 안에서만 쓰니까 speak함수 안에서 
 					// 선언 해버리는 방법! -> 다른대서 접근 못함) => static variable in function
 					
-	//Cat::safeCount = 0; 불가능! 위의 문제를 해결한 것
+	//Cat::safeCount = 0; //불가능! 위의 문제를 해결한 것
 
 	return 0;
 }

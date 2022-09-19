@@ -690,6 +690,21 @@
     <ClCompile Include="..\NoCode\47.cpp">
       <Filter>소스 파일\NoCode</Filter>
     </ClCompile>
+    <ClCompile Include="..\NoCode\48.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\49.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\50.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\51.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\52.cpp">
+      <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Yoon\ch1\1-5\1-5.h">

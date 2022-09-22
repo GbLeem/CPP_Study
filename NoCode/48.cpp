@@ -2,7 +2,7 @@
 
 //C++ -> OOP + High Performance(by Cache hit <- data oriented programming)
 //C++11 -> lambda expression
-
+//call back, state 등이 없어서 side effect가 없다
 //function 프로그래밍 : 함수를 변수처럼 다루는 것이 시작
 //function pointer / function object / javascript
 
@@ -31,4 +31,5 @@ int main()
 	std::cout << plus3(10) << std::endl; //13
 	std::cout << plus5(10) << std::endl; //15
 
+	return 0;
 }

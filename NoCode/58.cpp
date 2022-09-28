@@ -1,7 +1,8 @@
 //						<std::array>
 
 
-//array : stack공간에 allocate / compile시간에 size 확보/ stack frame / 컴파일 시간에 size를 알아야 한다./ fixes size
+//array : stack공간에 allocate / compile시간에 size 확보/ stack frame 
+// 컴파일 시간에 size를 알아야 한다./ fixes size
 //-> fast
 //vector : heap공간에 allocate / runtime에 size확보 / flexible size
 // ->slow (공간을 미리 확보하고 사용하면 속도 보완 가능)

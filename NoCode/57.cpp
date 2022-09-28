@@ -30,7 +30,6 @@ int main()
 {
 	std::vector<int>nums{ 0,1,0,1,0,1,0 };
 
-	//nums.erase(std::remove(nums.begin(), nums.end(), 0), nums.end());
 
 	auto iter = std::remove(nums.begin(), nums.end(), 0); //remove는 iterator 를 반환함
 	//-> remove O(n)의 시간 복잡도
@@ -41,6 +40,7 @@ int main()
 	}
 	std::cout << std::endl;
 
+	//nums.erase(std::remove(nums.begin(), nums.end(), 0), nums.end());
 	nums.erase(iter, nums.end());
 
 	for (int num : nums)

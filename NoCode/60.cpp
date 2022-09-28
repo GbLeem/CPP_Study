@@ -63,3 +63,4 @@ int main()
 			mat[col][row] += 1;
 		}
 	}
+}

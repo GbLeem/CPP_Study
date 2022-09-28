@@ -162,20 +162,20 @@
 //std::accumulate -> single thread
 //리턴 값이 하나일때 사용 -> sum and product 등을 구할때
 
-//#include <iostream>
-//#include <vector>
-//#include <numeric>
-//#include <string>
-//#include <functional>
-//
-//int main()
-//{
-//    std::vector<int> v{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-//
-//    int sum = std::accumulate(v.begin(), v.end(), 0);
-//
-//    int product = std::accumulate(v.begin(), v.end(), 1, std::multiplies<int>());
-//
-//    std::cout << "sum: " << sum << '\n'
-//        << "product: " << product << '\n';
-//}
+#include <iostream>
+#include <vector>
+#include <numeric>
+#include <string>
+#include <functional>
+
+int main()
+{
+    std::vector<int> v{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+    int sum = std::accumulate(v.begin(), v.end(), 0);
+
+    int product = std::accumulate(v.begin(), v.end(), 1, std::multiplies<int>());
+
+    std::cout << "sum: " << sum << '\n'
+        << "product: " << product << '\n';
+}

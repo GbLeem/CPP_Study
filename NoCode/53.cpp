@@ -23,29 +23,29 @@
 //}
 
 
-//int main()
-//{
-//	std::vector<int>nums{ 0,1,2,3,4 };
-//	std::cout << nums.size() << std::endl; //element의 갯수 : 5
-//	nums.emplace_back(5); //맨 뒤에 숫자 삽입
-//	nums.pop_back();//맨 뒤에것 삭제
-//
-//	//vector iterate 방법1
-//	for (std::size_t idx = 0; idx < nums.size(); ++idx)
-//	{
-//		std::cout << nums[idx] << std::endl;
-//	}
-//	//vector iterate 방법2
-//	for (auto iter= nums.begin();iter!=nums.end(); ++iter)
-//	{
-//		std::cout << (*iter) << std::endl;
-//	}
-//	////vector iterate 방법3 : ranged for 가장 좋은 방식
-//	for (const int& num : nums)
-//	{
-//		std::cout << num << std::endl;
-//	}
-//}
+int main()
+{
+	std::vector<int>nums{ 0,1,2,3,4 };
+	std::cout << nums.size() << std::endl; //element의 갯수 : 5
+	nums.emplace_back(5); //맨 뒤에 숫자 삽입
+	nums.pop_back();//맨 뒤에것 삭제
+
+	//vector iterate 방법1
+	for (std::size_t idx = 0; idx < nums.size(); ++idx)
+	{
+		std::cout << nums[idx] << std::endl;
+	}
+	//vector iterate 방법2
+	for (auto iter= nums.begin();iter!=nums.end(); ++iter)
+	{
+		std::cout << (*iter) << std::endl;
+	}
+	////vector iterate 방법3 : ranged for 가장 좋은 방식
+	for (const int& num : nums)
+	{
+		std::cout << num << std::endl;
+	}
+}
 
 class Cat
 {

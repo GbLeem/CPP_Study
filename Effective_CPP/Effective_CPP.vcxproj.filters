@@ -79,6 +79,12 @@
     <Filter Include="소스 파일\Yoon\ch14\14-1">
       <UniqueIdentifier>{9a69decd-7e83-4a86-baaf-5227167969d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\NoCode\parallel">
+      <UniqueIdentifier>{33867b0d-1576-4ef6-b071-31b61537ca17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NoCode\parallel\thread">
+      <UniqueIdentifier>{4c99abc5-7d66-4ae7-852c-2660d64d880e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item3-1.cpp">
@@ -809,6 +815,18 @@
     </ClCompile>
     <ClCompile Include="..\NoCode\87.cpp">
       <Filter>소스 파일\NoCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\parallel\thread\01thread_intro.cpp">
+      <Filter>소스 파일\NoCode\parallel\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\parallel\thread\02_std_thread.cpp">
+      <Filter>소스 파일\NoCode\parallel\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\parallel\thread\03_thread_arguments.cpp">
+      <Filter>소스 파일\NoCode\parallel\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoCode\parallel\thread\03_thread_arguments_2.cpp">
+      <Filter>소스 파일\NoCode\parallel\thread</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

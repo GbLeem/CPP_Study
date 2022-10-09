@@ -31,12 +31,12 @@ int main()
 	std::cout << "gji: " << std::hash<std::string>{}("gji") << "bucket num: " << uordSet.bucket("gji") << std::endl;
 	std::cout << "jkl: " << std::hash<std::string>{}("jkl") << "bucket num: " << uordSet.bucket("jkl") << std::endl;
 
-	//for (const std::string& str : uordSet)
-	//{
-	//	std::cout << str << std::endl;
-	//}
-	//uordSet.find("abc"); //O(1)
-	//uordSet.erase("abc"); //O(1)
+	for (const std::string& str : uordSet)
+	{
+		std::cout << str << std::endl;
+	}
+	uordSet.find("abc"); //O(1)
+	uordSet.erase("abc"); //O(1)
 
 	return 0;
 }
